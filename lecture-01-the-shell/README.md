@@ -1,7 +1,5 @@
 # Missing Semester
 
--------------------------------------------------------------------------------
-
 ## Lecture 01 Solutions
 
 ### Exercise 1
@@ -15,7 +13,6 @@ I'm currently using the zsh shell
 ### Exercise 2
 
 ```bash
-> cd /temp
 > mkdir /tmp/missing
 ```
 
@@ -45,7 +42,7 @@ It is also used to create an empty file. Unlike `cat` which is often used to cre
 .rw-r--r-- 61 suprit  3 Jan  1:35 semester
 ```
 The `.` indicates that semester is a file
-The next three letters ``rw-` indicate that the current user has read and write permissions, but not executable permissions. 
+The next three letters `rw-` indicate that the current user has read and write permissions, but not executable permissions. 
 These are the default permissions of any empty file created using `touch`
 
 Hence on running `./semester`, the shell tries to execute semester, but since we do not have execution permissions, we cannot do so
