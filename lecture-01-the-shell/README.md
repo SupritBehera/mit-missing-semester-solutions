@@ -106,3 +106,22 @@ The first line in ./semester is `#!/bin/sh`. `#` means that the line is ignored 
 
 ### Exercise 10
 
+```bash
+> ./semester | grep last-modified | cut -d " " -f 2- > ~/last-modified.txt
+
+> cat ~/last-modified.txt
+Thu, 31 Dec 2020 22:23:08 GMT
+```
+
+What we do here is first pipe the output of ./semester to grep, with the argument last-modified. Now grep filters out the line containing the string "last-modified" in it. At this stage, the output of the grep command is 
+`last-modified: Thu, 31 Dec 2020 22:23:08 GMT`. Now, to remove the last-modified: portion such that only the string from Thu till the end remains, we then pipe this to the `cut` command. 
+
+The `cut` command can split every line of the input you give it into _fields_, separated by delimiters. The -d flag is used to specify the delimiter, while the -f flag is to specify which fields need to be cut. (The cut fields are returned in the output). In our example, if we first specify the delimiter as whitespace (" "). Now, we need all the fields, that is the delimited portions starting from the second portion (Thu) to the end. To do this, we add the -f flag and `2-`, which means that we want every field from the second (inclusive) till the last.
+
+### Exercise 11
+
+For checking the power level of the laptop, run
+
+```bash
+cat /sys/class/power_supply/BAT0/capacity`
+```
