@@ -125,3 +125,8 @@ For checking the power level of the laptop, run
 ```bash
 cat /sys/class/power_supply/BAT0/capacity`
 ```
+For checking the CPU temperature,
+
+```bash
+cat /sys/class/thermal/thermal_zone*/temp
+```
