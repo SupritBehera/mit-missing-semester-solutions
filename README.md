@@ -12,6 +12,6 @@ Over the years, we have helped teach several classes at MIT, and over and over w
 
 These topics are not taught as part of the university curriculum: students are never shown how to use these tools, or at least not how to use them efficiently, and thus waste time and effort on tasks that should be simple. The standard CS curriculum is missing critical topics about the computing ecosystem that could make students’ lives significantly easier.
 
-## The Missing Semester of your CS Educaiton
+## The Missing Semester of your CS Education
 
 To help remedy this, we are running a class that covers all the topics we consider crucial to be an effective computer scientist and programmer. The class is pragmatic and practical, and it provides hands-on introduction to tools and techniques that you can immediately apply in a wide variety of situations you will encounter. The class is being run during MIT’s “Independent Activities Period” in January 2020 — a one-month semester that features shorter student-run classes. While the lectures themselves are only available to MIT students, we will provide all lecture materials along with video recordings of lectures to the public.
