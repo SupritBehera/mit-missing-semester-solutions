@@ -17,7 +17,7 @@ Henceforth the appropriate `ls` command to achieve so would be :
 `ls -ahlt --color`
 
 ```bash
-$ ls -ahtl --color ~/Books/Programming/C-C++/ 
+>>> ls -ahtl --color ~/Books/Programming/C-C++/ 
 total 203M
 drwxr-xr-x 6 suprit suprit 4.0K Jan 17 12:00  ..
 -rw-r--r-- 1 suprit suprit 2.2M Jan 17 11:58 'Accelerated C++.pdf'
